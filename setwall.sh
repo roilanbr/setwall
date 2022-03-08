@@ -71,6 +71,11 @@ functionDelOldWallpaper(){
 functionSetWallpaper(){
 echo $DESKTOP_SESSION
 videoPort=$(xrandr |grep primary |cut -d " " -f 1)
+
+# Usar este para Qtile
+# feh -z --bg-fill $wallpaperFolder/$imgName
+
+# Usar este para Deepin Linux
 echo "[WorkspaceBackground]
 1=file://$wallpaperFolder/$imgName
 1@$videoPort=file://$wallpaperFolder/$imgName
