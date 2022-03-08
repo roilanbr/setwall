@@ -3,6 +3,6 @@ Type=Application
 Name=Setwall
 Comment=Set wallpaper
 
-Icon=/home/roi/.apps/icons/setwall.png
-Exec=/home/roi/.apps/applications/setwall/setwall.sh %u
+Icon=/home/tu_usuario/.apps/setwall/setwall.png
+Exec=/home/tu_usuario/.apps/setwall/setwall.sh %u
 Categories=Utility;
