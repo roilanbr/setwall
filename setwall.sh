@@ -5,7 +5,7 @@
 
 # VARIABLES
 # ===============================================
-proxy="http://172.16.65.54:3128"
+proxy="tu_proxy:port" # En caso de usar proxy especificarlo aquí
 wallpaperFolder=$HOME/Pictures/setwall  # Wallpaper folder
 customWallpaper=$HOME/.config/deepin/dde-daemon/appearance/custom-wallpapers # Wallpaper de Deepin
 #grep -o 'src="[^"]*"' $wallpaperFolder/.bing | grep -o '/.*.jpg'| cut -f1 -d "&"
