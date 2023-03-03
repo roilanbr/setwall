@@ -4,15 +4,13 @@
 			<style>
 				.container {font-family: monospace;
 					justify-content: center;
-					<!-- margin: 0; -->
 					background: #fc5c7d;
-					<!-- border-radius: 10px; -->
 					padding: 0.1em 1em;
 					border-radius: 2em; 
 					border-left: 0.5em solid #444444; 
 					color: #000000; 
 				}
-				p {font-size: 20px }
+				p {font-size: 16px }
 			</style>
 			<div class="container">
 				<h2>Nota:</h2>
